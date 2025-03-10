@@ -1,0 +1,43 @@
+/* src/App.css */
+body {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  background-color: #f8f9fa; /* Optional: Set a background color */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px; /* Increase max width for a larger form */
+  width: 100%; /* Make the form responsive */
+  padding: 30px; /* Increase padding for a larger form */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 8px; /* Optional: Round the corners */
+  background-color: white; /* Optional: Set a background color */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+input {
+  margin: 15px 0; /* Increase space between inputs */
+  padding: 12px; /* Increase padding inside inputs for a larger feel */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Round the corners of inputs */
+  font-size: 16px; /* Increase font size for better readability */
+}
+
+button {
+  padding: 12px; /* Increase padding for the button */
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 4px; /* Round the corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Increase font size for better readability */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
